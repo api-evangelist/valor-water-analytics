@@ -1,0 +1,21 @@
+# Valor Water Analytics
+
+> Valor Water Analytics was a San Francisco-based water analytics company that built
+> financial data and dashboard tools for water utilities, including leak and loss
+> detection through its hidden revenue locator. A Y Combinator, Imagine H2O, and
+> 500 Global portfolio company, it was acquired by Xylem Inc. (completed
+> February 2, 2018) and folded into Xylem's digital solutions portfolio, now
+> represented by the Xylem Vue platform. The valorwater.com domain redirects to
+> Xylem Vue, and no independent Valor Water API, developer portal, or
+> documentation remains published.
+
+## Status
+
+- Acquired by Xylem Inc.; acquisition completed 2018-02-02
+- https://valorwater.com redirects to https://www.xylem.com/en-us/brand/xylem-vue/
+- No public API surface, SDKs, packages, GitHub organization, or developer docs found
+
+## Profile
+
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/valor-water-analytics/refs/heads/main/apis.yml
+- Website (redirects to Xylem Vue): https://valorwater.com

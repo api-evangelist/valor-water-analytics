@@ -1,8 +1,23 @@
 aid: valor-water-analytics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valor-water-analytics.png
 name: Valor Water Analytics
-description: Valor Water Analytics is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Valor Water Analytics was a San Francisco-based water analytics company
+  that built financial data and dashboard tools for water utilities, including leak
+  and revenue-loss detection. A Y Combinator, Imagine H2O, and 500 Global portfolio
+  company, it was acquired by Xylem Inc. (completed February 2, 2018) and folded into
+  Xylem's digital portfolio, now represented by the Xylem Vue platform. valorwater.com
+  redirects to Xylem Vue, and no independent API surface remains published.
 url: https://raw.githubusercontent.com/api-evangelist/valor-water-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +25,19 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: xylem
+x-acquired-date: '2018-02-02'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Water
+- Analytics
+- Utilities
+- Data
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/valor-water-analytics-domain-security.yml
+- type: LLMsTxt
+  url: llms/valor-water-analytics-llms.txt
 - type: Website
   url: https://valorwater.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

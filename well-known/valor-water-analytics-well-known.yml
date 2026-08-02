@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://valorwater.com/.well-known/*
+note: valorwater.com is a catch-all 301 redirect to https://www.xylem.com/en-us/brand/xylem-vue/
+  (Valor Water Analytics was acquired by Xylem, completed 2018-02-02). Every well-known
+  path below returns the same domain-level redirect and lands on the Xylem Vue brand
+  page, so no genuine well-known artifacts exist for this host.
+host: valorwater.com
+paths:
+- path: /.well-known/security.txt
+  status: 301
+  file: null
+- path: /.well-known/openid-configuration
+  status: 301
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  file: null
+- path: /.well-known/api-catalog
+  status: 301
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 301
+  file: null
+- path: /llms.txt
+  status: 301
+  file: null
