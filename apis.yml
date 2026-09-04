@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://valorwater.com', status: 301, note: 'declared website redirects to https://www.xylem.com:443/en-us/brand/xylem-vue/ — a different registrable domain (valorwater.com -> xylem.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valor-water-analytics.png
 name: Valor Water Analytics
 description: Valor Water Analytics was a San Francisco-based water analytics company
